@@ -1,0 +1,152 @@
+* {
+  margin: 0px !important;
+}
+
+.nav-wrapper {
+  margin: 0px 2%;
+  color: #80d8ff;
+}
+
+.top-portion {
+  margin: 0px !important;
+  background-image: url("https://media.newyorker.com/photos/590975e8ebe912338a377b06/16:9/w_1200,h_630,c_limit/Stokes-Weightlifting-Goals.jpg");
+  height: 100vh;
+  background-position: center;
+  opacity: .6;
+}
+
+.nav-navigation.text-blue {
+  color: #616161;
+  font-family: "rajdhani", sans-serif;
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+.brand-logo.nav-navigation.text-blue {
+  font-family: "do hyeon", sans-serif;
+  font-size: 40px;
+}
+
+.banner-text-background {
+  background-color: #424242;
+  border: 1px solid #424242;
+  margin-top: 0px !important;
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  top: 150px;
+}
+
+.h1-banner-text {
+  font-size: 50px;
+  text-align: center;
+  margin-top: 25px !important;
+  color: #80d8ff;
+  font-family: "orbitron", sans-serif;
+}
+
+.bottom-background {
+  background-color: #eeeeee;
+  width: 98.7vw;
+  flex-direction: column;
+}
+
+.st-h2 {
+  font-family: "do hyeon", sans-serif;
+  color: #80d8ff;
+  padding-left: 20px;
+  padding-top: 60px;
+  display: inline-block;
+}
+
+.st-description {
+  display: inline-block;
+  font-family: "rajdhani", sans-serif;
+  font-size: 20px;
+  color: #616161;
+  padding-left: 20px;
+  width: 50vw;
+  padding-top: 10px;
+}
+
+.st-image {
+  height: 350px;
+  width: 400px;
+  display: inline-block;
+  float: right;
+  padding-right: 10px;
+  padding-top: 70px;
+}
+
+.cv-h2 {
+  font-family: "do hyeon", sans-serif;
+  color: #80d8ff;
+  padding-right: 20px;
+  padding-top: 60px;
+  display: inline-block;
+  float: right;
+}
+
+.cv-description {
+  display: inline-block;
+  font-family: "rajdhani", sans-serif;
+  font-size: 20px;
+  color: #616161;
+  padding-right: 20px;
+  width: 50vw;
+  padding-top: 10px;
+  float: right;
+}
+
+.cv-image {
+  height: 400px;
+  width: 350px;
+  display: inline-block;
+  float: left;
+  padding-left: 10px;
+  padding-top: 70px;
+}
+
+.smr-h2 {
+  font-family: "do hyeon", sans-serif;
+  color: #80d8ff;
+  padding-left: 20px;
+  padding-top: 60px;
+  display: inline-block;
+}
+
+.smr-image {
+  height: 350px;
+  width: 400px;
+  display: inline-block;
+  float: right;
+  padding-right: 10px;
+  padding-top: 70px;
+  padding-bottom: 10px;
+}
+
+.smr-description {
+  display: inline-block;
+  font-family: "rajdhani", sans-serif;
+  font-size: 20px;
+  color: #616161;
+  padding-left: 20px;
+  width: 50vw;
+  padding-top: 10px;
+}
+
+.page-footer {
+  margin-top: 20px !important;
+  background: #80d8ff !important;
+  color: #616161 !important;
+}
+.page-footer a{
+  color: #616161 !important;
+  font-family: "rajdhani", sans-serif;
+  font-size: 20px;
+  display: inline-block;
+}
+
+.social-media-footer {
+  font-family: "do hyeon", sans-serif;
+}

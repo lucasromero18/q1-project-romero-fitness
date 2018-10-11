@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="BMI.css">
+    <link rel="stylesheet" href="BMI.css"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Do+Hyeon|Orbitron|Rajdhani" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="BMI.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js" defer></script>
+    <script src ="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.js" defer></script>
+    <title>BMI</title>
+  </head>
+  <body>
+
+    <nav class = "light-blue accent-1">
+      <div class = "nav-wrapper">
+          <a href="#" class="brand-logo nav-navigation text-blue">ROMERO FITNESS</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a class="nav-navigation text-blue" href="sass.html">Workouts</a></li>
+            <li><a class="nav-navigation text-blue" href="sass.html">Nutrition</a></li>
+            <li><a class="nav-navigation text-blue" href="badges.html">Contact</a></li>
+            <li><a class="nav-navigation text-blue" href="collapsible.html">More</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class = "container h1-text">
+        <h1 class = "bmi-h1">BMI Calculator</h1>
+      </div>
+
+    <div class = "body-bmi-description container valign-wrapper">
+      <div class="row">
+        <div class="col s2">
+          <h2 class = "bmi-question margin-text">What exactly is BMI?</h2>
+        </div>
+        <div class="col s5">
+          <p class = "bmi-definition margin-text">"Body Mass Index" is a measure of body fat based
+            on your weight in relation to your height, weight and age. BMI determines
+          whether a person is underweight, overweight, obese or a healthy weight for
+          their height.</p>
+        </div>
+        <div class="col s5">
+          <p class = "bmi-test-options margin-text"> You can test your BMI via the hand held BMI
+          machine, Rice Lake D1000-3 Full Body Composition Analyzer (comparing water,
+          muscle, and body fat ratios), and the BMI pinch test (measured by calipers)
+          to determine the fat layer thickness. </p>
+        </div>
+      </div>
+    </div>
+
+    <div class = "container">
+      <span class = "bmi-test-question">What's your BMI?</span>
+      </div>
+      <div class = "container">
+      <span class = "enter-information">Enter the following information below</span>
+      </div>
+
+    <div class = "container">
+      <div class = "row">
+        <div class = "input-field inline">
+          <input id="height-input-ft" type= "text">
+          <label for="height-input-ft">
+            ft.
+          </label>
+      </div>
+      <div class = "input-field inline">
+        <input id="height-input-inches" type= "text">
+          <label for="height-input-inches">
+            inches
+          </label>
+          </div>
+        </div>
+        <div class="row">
+          <div class = "input-field inline">
+            <input id="weight-input" type= "text">
+            <label for="weight-input">
+                weight
+            </label>
+          </div>
+        </div>
+
+        <div class = "input-field inline">
+          <input id="age-input" type= "text">
+          <label for="age-input">
+            age
+          </label>
+      </div>
+    </div>
+
+    <div class = "container answer">
+      <span class = "body-fat-percentage">Your BMI is:</span>
+    </div>
+
+    <div class = "container bmi-table">
+      <div class = "container">
+        <h1 class = "bf-recommendations">Body Fat Recommendations</h1>
+      </div>
+      <span class = "male-recommendations">Male</span>
+      <table border="1">
+        <tr>
+          <td class = "rating-male">Age</td>
+          <td class = "male-age">16-19</td>
+          <td class = "male-age">20-29</td>
+          <td class = "male-age">30-39</td>
+          <td class = "male-age">40-49</td>
+          <td class = "male-age">50-59</td>
+          <td class = "male-age">60+</td>
+        </tr>
+        <tr>
+          <td class = "rating-male">Excellent</td>
+          <td class = "male-excellent"><8%</td>
+          <td class = "male-excellent"><9%</td>
+          <td class = "male-excellent"><10%</td>
+          <td class = "male-excellent"><12%</td>
+          <td class = "male-excellent"><13%</td>
+          <td class = "male-excellent"><14%</td>
+        </tr>
+        <tr>
+          <td class = "rating-male">Good</td>
+          <td class = "male-good">9-12%</td>
+          <td class = "male-good">10-13%</td>
+          <td class = "male-good">11-14%</td>
+          <td class = "male-good">13-16%</td>
+          <td class = "male-good">14-17%</td>
+          <td class = "male-good">15-18%</td>
+        </tr>
+        <tr>
+          <td class = "rating-male">Average</td>
+          <td class = "male-average">13-19%</td>
+          <td class = "male-average">14-20%</td>
+          <td class = "male-average">15-21%</td>
+          <td class = "male-average">17-23%</td>
+          <td class = "male-average">18-24%</td>
+          <td class = "male-average">19-25%</td>
+        </tr>
+        <tr>
+          <td class = "rating-male">Fair</td>
+          <td class = "male-fair">20-22%</td>
+          <td class = "male-fair">21-24%</td>
+          <td class = "male-fair">22-25%</td>
+          <td class = "male-fair">24-26%</td>
+          <td class = "male-fair">25-27%</td>
+          <td class = "male-fair">26-28%</td>
+        </tr>
+        <tr>
+          <td class = "rating-male">Poor</td>
+          <td class = "male-poor">23+%</td>
+          <td class = "male-poor">25+%</td>
+          <td class = "male-poor">26+%</td>
+          <td class = "male-poor">27+%</td>
+          <td class = "male-poor">28+%</td>
+          <td class = "male-poor">29+%</td>
+        </tr>
+      </table>
+
+      <span class = "female-recommendations">Female</span>
+      <table border="1">
+        <tr>
+          <td class = "rating-female">Age</td>
+          <td class = "female-age">16-19</td>
+          <td class = "female-age">20-29</td>
+          <td class = "female-age">30-39</td>
+          <td class = "female-age">40-49</td>
+          <td class = "female-age">50-59</td>
+          <td class = "female-age">60+</td>
+        </tr>
+        <tr>
+          <td class = "rating-female">Excellent</td>
+          <td class = "female-excellent"><14%</td>
+          <td class = "female-excellent"><15%</td>
+          <td class = "female-excellent"><16%</td>
+          <td class = "female-excellent"><17%</td>
+          <td class = "female-excellent"><18%</td>
+          <td class = "female-excellent"><19%</td>
+        </tr>
+        <tr>
+          <td class = "rating-female">Good</td>
+          <td class = "female-good">15-18%</td>
+          <td class = "female-good">16-19%</td>
+          <td class = "female-good">17-20%</td>
+          <td class = "female-good">18-21%</td>
+          <td class = "female-good">19-22%</td>
+          <td class = "female-good">20-23%</td>
+        </tr>
+        <tr>
+          <td class = "rating-female">Average</td>
+          <td class = "female-average">19-25%</td>
+          <td class = "female-average">20-26%</td>
+          <td class = "female-average">21-27%</td>
+          <td class = "female-average">22-29%</td>
+          <td class = "female-average">23-30%</td>
+          <td class = "female-average">24-31%</td>
+        </tr>
+        <tr>
+          <td class = "rating-female">Fair</td>
+          <td class =  "female-fair">26-28%</td>
+          <td class = "female-fair">27-29%</td>
+          <td class = "female-fair">28-30%</td>
+          <td class = "female-fair">30-32%</td>
+          <td class = "female-fair">31-33%</td>
+          <td class = "female-fair">32-34%</td>
+        </tr>
+        <tr>
+          <td class = "rating-female">Poor</td>
+          <td class = "female-poor">29+%</td>
+          <td class = "female-poor">30+%</td>
+          <td class = "female-poor">31+%</td>
+          <td class = "female-poor">32+%</td>
+          <td class = "female-poor">33+%</td>
+          <td class = "female-poor">34+%</td>
+        </tr>
+      </table>
+      </div>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

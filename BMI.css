@@ -1,0 +1,195 @@
+* {
+  background-color: #eeeeee;
+}
+
+.margin-text {
+  margin-bottom: 75px;
+}
+
+.nav-wrapper {
+  margin: 0px 2%;
+  background-color: #80d8ff;
+}
+
+.nav-navigation.text-blue {
+  color: #616161;
+  background-color: #80d8ff;
+  font-family: "rajdhani", sans-serif;
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+.brand-logo.nav-navigation.text-blue {
+  font-family: "do hyeon", sans-serif;
+  font-size: 40px;
+}
+
+.bmi-h1 {
+  margin: 0 auto !important;
+  color: #80d8ff;
+  font-family: "do hyeon", sans-serif;
+  padding: 30px 10px 0px 30px;
+  font-size: 6em;
+  background-color: #424242;
+  box-shadow: 0 0 10px black;
+}
+.h1-text{
+  width:100%;
+  text-align: center;
+}
+
+
+.bmi-question {
+  color: #80d8ff;
+  font-family: "do hyeon", sans-serif;
+  font-size: 2em;
+  display: inline-block;
+}
+
+.bmi-definition {
+  font-family: "rajdhani", sans-serif;
+  font-size: 20px;
+  color: #616161;
+  display:inline-block;
+  text-align: left;
+  border: 1px solid #80d8ff;
+  background-color: #80d8ff;
+  padding: 10px;
+  min-height: 230px;
+  box-shadow: 0 0 10px black;
+}
+
+.bmi-test-options {
+  font-size: 20px;
+  color: #80d8ff;
+  font-family: "rajdhani", sans-serif;
+  background-color: #424242;
+  display:inline-block;
+  padding: 10px;
+  min-height: 230px;
+  box-shadow: 0 0 10px black;
+}
+
+.bmi-test-question {
+  display: inline-block;
+  font-family: "do hyeon", sans-serif;
+  font-size: 4em;
+  color: #80d8ff;
+  background-color: #424242;
+  box-shadow: 0 0 5px black;
+}
+
+.enter-information {
+  font-family: "do hyeon", sans-serif;
+  font-size: 1em;
+  color: #80d8ff;
+  background-color: #424242;
+  box-shadow: 0 0 5px black;
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 30px
+}
+
+
+.input-field input[type=text]:focus + label {
+     color: #80d8ff !important;
+}
+
+.input-field input[type=text]:focus {
+ border-bottom: 1px solid #80d8ff !important;
+ box-shadow: 0 1px 0 0 #80d8ff !important;
+}
+
+.body-fat-percentage {
+  font-size: 3em;
+  font-family: "do hyeon", sans-serif;
+  color: #424242;
+  border: 1px solid #80d8ff;
+  background-color: #80d8ff;
+  box-shadow: 0 0 5px black;
+}
+
+.bf-recommendations {
+  color: #80d8ff;
+  font-size: 5em;
+  font-family: "do hyeon", sans-serif;
+  background-color: #424242;
+  box-shadow: 0 0 5px black;
+}
+
+.male-recommendations {
+  color: #80d8ff;
+  font-size: 3em;
+  font-family: "do hyeon", sans-serif;
+  background-color: #424242;
+  box-shadow: 0 0 5px black;
+}
+
+.female-recommendations {
+  color: #424242;
+  font-size: 3em;
+  font-family: "do hyeon", sans-serif;
+  background-color: #80d8ff;
+  box-shadow: 0 0 5px black;
+}
+
+.rating-male {
+    color: #80d8ff;
+    background-color: #424242;
+    font-family: "do hyeon", sans-serif;
+}
+
+.rating-female {
+  color: #424242;
+  background-color: #80d8ff;
+  font-family: "do hyeon", sans-serif;
+}
+
+.male-age {
+  background-color: #424242;
+  color: #80d8ff;
+}
+
+.male-excellent {
+  background-color: #76ff03;
+}
+
+.male-good{
+  background-color: #76ff03;
+}
+
+.male-average {
+  background-color: #ffff00;
+}
+
+.male-fair {
+  background-color: #ffa000;
+}
+
+.male-poor {
+  background-color: red;
+}
+
+.female-age {
+  background-color: #80d8ff;
+}
+
+.female-excellent {
+  background-color: #76ff03;
+}
+
+.female-good {
+  background-color: #76ff03;
+}
+
+.female-average {
+  background-color: #ffff00;
+}
+
+ .female-fair {
+   background-color: #ffa000;
+ }
+
+ .female-poor {
+   background-color: red;
+ }
