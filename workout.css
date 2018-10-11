@@ -56,3 +56,36 @@ background-color: #80d8ff;
   height: 150px;
   overflow:hidden;
 }
+
+.card-title {
+font-weight: 600;
+font-family: "rajdhani", sans-serif;
+color: #80d8ff !important;
+background-color: #424242;
+height: 50px !important;
+}
+
+.card-content {
+font-weight: 600;
+font-family: "rajdhani", sans-serif;
+color: #80d8ff !important;
+background-color: #424242 !important;
+}
+
+.card-content p{
+font-weight: 600;
+color: #80d8ff !important;
+background-color: #424242 !important;
+}
+
+.card-action{
+  color: #80d8ff !important;
+  background-color: #424242 !important;
+}
+
+.lets-go {
+font-weight: 600;
+font-family: "rajdhani", sans-serif;
+color: #80d8ff !important;
+background-color: #424242 !important;
+}
