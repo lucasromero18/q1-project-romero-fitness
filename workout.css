@@ -1,0 +1,25 @@
+* {
+  background-color: #eeeeee;
+}
+
+.margin-text {
+  margin-bottom: 75px;
+}
+
+.nav-wrapper {
+  margin: 0px 2%;
+  background-color: #80d8ff;
+}
+
+.nav-navigation.text-blue {
+  color: #616161;
+  background-color: #80d8ff;
+  font-family: "rajdhani", sans-serif;
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+.brand-logo.nav-navigation.text-blue {
+  font-family: "do hyeon", sans-serif;
+  font-size: 40px;
+}
