@@ -5,4 +5,4 @@ axios.get("https://wger.de/api/v2/exercise/", {
 }).then((res) => {
     console.log(res);
 
-  })
+})
