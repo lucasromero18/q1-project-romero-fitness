@@ -1,0 +1,74 @@
+.nav-wrapper {
+  margin: 0px 2%;
+  background-color: #80d8ff;
+}
+
+.nav-navigation.text-blue {
+  color: #616161;
+  background-color: #80d8ff;
+  font-family: "rajdhani", sans-serif;
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+.brand-logo.nav-navigation.text-blue {
+  font-family: "do hyeon", sans-serif;
+  font-size: 40px;
+}
+
+.muscle-name {
+  font-family: "do hyeon", sans-serif;
+  color: #80d8ff;
+  font-size: 70px;
+  border: 1px solid #424242;
+  background-color: #424242;
+  margin-left: 225px;
+  box-shadow: 0 0 5px #424242;
+}
+
+.container-left {
+  width: 50%;
+}
+
+.workout-names {
+  margin-left: 10px !important;
+  border: 1px solid #424242;
+  background-color: #424242;
+  color: #80d8ff;
+  width: 30vw;
+  height: 100vh;
+  box-shadow: 0 0 5px #424242;
+}
+
+.workout-title {
+  margin-left: 10px !important;
+  font-family: "do hyeon", sans-serif;
+  color: #424242;
+  font-size: 50px;
+  border: 1px solid #80d8ff;
+  background-color: #80d8ff;
+}
+
+.container-right {
+  width: 50%;
+}
+
+.description {
+  margin-left: 10px !important;
+  font-family: "do hyeon", sans-serif;
+  color: #424242;
+  font-size: 50px;
+  border: 1px solid #80d8ff;
+  background-color: #80d8ff;
+  box-shadow: 0 0 5px #424242;
+}
+
+.workout-explanation {
+  border: 1px solid #424242;
+  color: #80d8ff;
+  background-color: #424242;
+  height: 100vh;
+  width: 50vw;
+  margin-left: 10px !important;
+  box-shadow: 0 0 5px #424242;
+}

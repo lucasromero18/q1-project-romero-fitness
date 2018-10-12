@@ -4,5 +4,8 @@ axios.get("https://wger.de/api/v2/exercise/?language=2", {
   }
 }).then((res) => {
     console.log(res);
+let letsGo = document.querySelector(".lets-go")
+letsGo.addEventListener("click", (e) => {
 
+  })
 })

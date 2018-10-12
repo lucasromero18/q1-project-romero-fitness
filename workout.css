@@ -89,3 +89,7 @@ font-family: "rajdhani", sans-serif;
 color: #80d8ff !important;
 background-color: #424242 !important;
 }
+
+.hidden{
+  visibility: visible;
+}
